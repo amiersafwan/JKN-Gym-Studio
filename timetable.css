@@ -1,0 +1,61 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding-top: 70px; /* space for navbar */
+}
+
+.timetable-section {
+  background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+}
+
+h2 {
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.table {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+.table th {
+  background-color: #212529;
+  color: #fff;
+  font-weight: 600;
+}
+
+.table td {
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+.table td:hover {
+  background-color: #fff3cd;
+}
+
+.today-highlight {
+  background-color: #ffeb99 !important;
+  font-weight: 600;
+}
+
+.btn-warning {
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: all 0.3s;
+}
+
+.btn-warning:hover {
+  background-color: #ffca2c;
+  transform: scale(1.05);
+}

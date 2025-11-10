@@ -1,0 +1,41 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.hero {
+  background: url('Image/JKNBackground.jpg') center/cover no-repeat;
+  height: 100vh;
+}
+.hero h1 {
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.program-card img {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 80vh;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
